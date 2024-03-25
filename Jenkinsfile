@@ -12,7 +12,7 @@ pipeline {
     stage('Building Docker Image') {
       steps{
         script {
-          sh "docker build -t ramya2/cicd-poc-jenkins-ansible:$BUILD_NUMBER ."
+          sh "docker build -t ramyachandran04/cicd-poc-jenkins-ansible:$BUILD_NUMBER ."
         }
       }
     }
